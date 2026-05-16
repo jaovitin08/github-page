@@ -2,10 +2,105 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://sites.google.com/view/joao-vitor-fernandes-cunha08/in%C3%ADcio">
-    <title>Redirecionando para o Portfólio...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Vitor | Portfólio e Contato</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 40px 30px;
+            text-align: center;
+            max-width: 450px;
+            width: 100%;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #f0f6fc;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #8b949e;
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .links-area {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Espaço entre os botões */
+        }
+
+        .btn {
+            display: block;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        /* Botão do Google Sites (Cor institucional do Google / Azul Claro) */
+        .btn-google {
+            background-color: #4285f4;
+            color: #ffffff;
+        }
+
+        .btn-google:hover {
+            background-color: #357ae8;
+            transform: translateY(-2px);
+        }
+
+        /* Botão do LinkedIn (Azul Padrão LinkedIn) */
+        .btn-linkedin {
+            background-color: #0a66c2;
+            color: #ffffff;
+        }
+
+        .btn-linkedin:hover {
+            background-color: #004182;
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
 <body>
-    <p>Se você não for redirecionado automaticamente, <a href="https://sites.google.com/view/joao-vitor-fernandes-cunha08/in%C3%ADcio">clique aqui para acessar meu portfólio</a>.</p>
+
+    <div class="container">
+        <h1>João Vitor Fernandes Cunha</h1>
+        <p>Selecione uma das opções abaixo para conhecer o meu trabalho e conectar-se comigo:</p>
+        
+        <div class="links-area">
+            <a href="https://sites.google.com/view/joao-vitor-fernandes-cunha08/in%C3%ADcio" target="_blank" class="btn btn-google">
+                🌐 Aceder ao meu Google Sites (Portfólio)
+            </a>
+
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-fernandes-cunha-2abb0a265/" target="_blank" class="btn btn-linkedin">
+                💼 Conectar no LinkedIn
+            </a>
+        </div>
+    </div>
+
 </body>
 </html>
